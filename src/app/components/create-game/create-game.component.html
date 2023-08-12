@@ -1,0 +1,149 @@
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-lg-6 offset-lg-3">
+            <div class="card">
+                <div class="card-body text-center">
+                    <span class="general-title">CREATE NEW GAME</span>
+                        <form class="mt-3" [formGroup]="gameForm" (ngSubmit)="createGame()">
+                            <!-- Title -->
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label float-start">Title</label>
+                                <input type="text" formControlName="title"
+                                class="form-control " placeholder="">
+                                <!-- Validator message -->
+                                <div class="alert alert-danger mt-2 mb-2" role="alert" 
+                                *ngIf="gameForm.get('title')?.hasError('required') && gameForm.get('title')?.touched">
+                                    <span class="text-danger">The game title <strong>is required</strong></span>
+                                </div>                                                                
+                            </div>
+                            <!-- Description -->
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label float-start">Description</label>
+                                <input type="text" formControlName="description"
+                                class="form-control">
+                                <!-- Validator message -->
+                                <div class="alert alert-danger mt-2 mb-2" role="alert" 
+                                *ngIf="gameForm.get('description')?.hasError('required') && gameForm.get('description')?.touched">
+                                    <span class="text-danger">The game description <strong>is required</strong></span>
+                                </div>
+                            </div>
+                            <!-- Genre -->
+                            <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label float-start">Genre</label>
+                            <select class="form-select" formControlName="genre">
+                                <option value="1">Action</option>
+                                <option value="2">Adventure</option>
+                                <option value="3">Role-Playing (RPG)</option>
+                                <option value="4">Strategy</option>
+                                <option value="5">Simulation</option>
+                                <option value="6">Puzzle</option>
+                                <option value="7">Sports</option>
+                                <option value="8">Racing</option>
+                                <option value="9">Fighting</option>
+                                <option value="10">Horror</option>
+                                <option value="11">Sandbox</option>
+                                <option value="12">Platformer</option>
+                                <option value="13">Shooter</option>
+                                <option value="14">Stealth</option>
+                                <option value="15">Music/Rhythm</option>
+                                <option value="16">Educational</option>
+                                <option value="17">Simulation</option>
+                              </select>
+                              <!-- Validator message -->
+                              <div class="alert alert-danger mt-2 mb-2" role="alert" 
+                              *ngIf="gameForm.get('genre')?.hasError('required') && gameForm.get('genre')?.touched">
+                                <span class="text-danger">The game genre <strong>is required</strong></span>
+                            </div>
+                            </div>
+                            <!-- Platform -->
+                            <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label float-start">Platform</label>
+                                <select class="form-select mb-3" formControlName="platform"
+                                aria-label="Default select example">
+                                    <option value="1">PlayStation 5 (PS5)</option>
+                                    <option value="2">Xbox Series X</option>
+                                    <option value="3">Nintendo Switch</option>
+                                    <option value="4">PlayStation 4 (PS4)</option>
+                                    <option value="5">Xbox One</option>
+                                    <option value="6">Nintendo 3DS</option>
+                                    <option value="7">PC (Windows)</option>
+                                    <option value="8">PlayStation 3 (PS3)</option>
+                                    <option value="9">Xbox 360</option>
+                                    <option value="10">Wii U</option>
+                                    <option value="11">Wii</option>
+                                    <option value="12">PlayStation 2 (PS2)</option>
+                                    <option value="13">Xbox</option>
+                                    <option value="14">GameCube</option>
+                                    <option value="15">PlayStation (PS1)</option>
+                                    <option value="16">Nintendo 64</option>
+                                    <option value="17">Super Nintendo Entertainment System (SNES)</option>
+                                    <option value="18">Sega Genesis</option>
+                                </select>
+                                <!-- Validator message -->
+                                <div class="alert alert-danger mt-2 mb-2" role="alert" 
+                                *ngIf="gameForm.get('platform')?.hasError('required') && gameForm.get('platform')?.touched">
+                                    <span class="text-danger">The game platform <strong>is required</strong></span>
+                                </div>
+                            </div>
+                            <!-- Price -->
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label float-start">Price</label>
+                                <input type="number" formControlName="price"
+                                class="form-control">
+                                <!-- Validator message -->
+                                <div class="alert alert-danger mt-2 mb-2" role="alert" 
+                                *ngIf="gameForm.get('price')?.hasError('required') && gameForm.get('price')?.touched">
+                                    <span class="text-danger">The game price <strong>is required</strong></span>
+                                </div>
+                            </div>
+                            <!-- Release date -->
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label float-start">Release date</label>
+                                <input type="date" formControlName="releaseDate"
+                                class="form-control " placeholder="Release date">
+                                <!-- Validator message -->
+                                <div class="alert alert-danger mt-2 mb-2" role="alert" 
+                                *ngIf="gameForm.get('releaseDate')?.hasError('required') && gameForm.get('releaseDate')?.touched">
+                                    <span class="text-danger">The release date of the game <strong>is required</strong></span>
+                                </div>
+                            </div>
+                            <!-- Publisher -->
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label float-start">Publisher</label>
+                                <input type="text" formControlName="publisher"
+                                class="form-control " placeholder="">
+                                <!-- Validator message -->
+                                <div class="alert alert-danger mt-2 mb-2" role="alert" 
+                                *ngIf="gameForm.get('publisher')?.hasError('required') && gameForm.get('publisher')?.touched">
+                                    <span class="text-danger">The game publisher <strong>is required</strong></span>
+                                </div>                                                                
+                            </div>
+                            <!-- Image URL -->
+                            <div class="mb-5">
+                                <label for="exampleFormControlInput1" class="form-label float-start">Image URL</label>
+                                <input class="form-control" formControlName="imageUrl" type="text" placeholder="Image url">                              
+                                <!-- Validator message -->
+                                <div class="alert alert-danger mt-2 mb-2" role="alert" 
+                                *ngIf="gameForm.get('imageUrl')?.hasError('required') && gameForm.get('imageUrl')?.touched">
+                                    <span class="text-danger">The game image <strong>is required</strong></span>
+                                </div>
+                            </div>
+                            <!-- Check on sale game -->
+                            <div class="form-check">
+                                <input class="form-check-input" formControlName="isOnSale"
+                                type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label float-start" for="flexCheckDefault" >
+                                  Please, check if the game is on sale
+                                </label>
+                              </div>      
+                            <!-- Buttons -->                        
+                            <div class="mb-3 mt-5">
+                                <button routerLink="/list-games" class="btn btn-secondary btn-lg float-start">RETURN</button>
+                                <button type="submit" [disabled]="gameForm.invalid" class="btn btn-success btn-lg float-end">CREATE</button>
+                            </div>
+                        </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
