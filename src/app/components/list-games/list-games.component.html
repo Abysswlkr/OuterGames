@@ -3,9 +3,9 @@
         <div class="col-lg-15 offset-lg-0">
             <div class="card">
                 <div class="card-body text-center">
-                    <span class="general-title">LIST OF GAMES</span>
+                    <span class="general-title">GAMES IN DATABASE</span>
                     <button class="btn btn-success float-end" routerLink="/create-game">NEW</button>
-                    <table class="table table-striped table-hover">
+                    <table *ngIf="listGames.length > 0" class="table table-striped table-hover">
                         <thead>
                           <tr>
                             <th scope="col">Title</th>
@@ -19,56 +19,27 @@
                           </tr>
                         </thead>
                         <tbody>
-                          <tr>
-                            <td>Call of duty</td>
-                            <td>FPS Game</td>
-                            <td>FPS</td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
+                          <tr *ngFor="let game of listGames">
+                            <td>{{ game.title }}</td>
+                            <td>{{ game.description }}</td>
+                            <td>{{ game.genre }}</td>
+                            <td>{{ game.platform }}</td>
+                            <td>{{ game.price | currency: 'USD'}}</td>
+                            <td>{{ game.releaseDate }}</td>
+                            <td>{{ game.imageUrl }}</td>
+                            <td>{{ game.isOnSale }}</td>
                             <td>
-                                <i class="fas fa-trash text-danger"></i>
+                              <i [routerLink]="['/edit-game', game._id]" class="far fa-edit text-primary"></i>
                             </td>
                             <td>
-                                <i class="far fa-edit text-primary"></i>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>The legend of Zelda</td>
-                            <td>Adventure game</td>
-                            <td>Adventure, action</td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td>
-                                <i class="fas fa-trash text-danger"></i>
-                            </td>
-                            <td>
-                                <i class="far fa-edit text-primary"></i>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>Viva piñata</td>
-                            <td>Play with friends</td>
-                            <td>Multiplayer</td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td>
-                                <i class="fas fa-trash text-danger"></i>
-                            </td>
-                            <td>
-                                <i class="far fa-edit text-primary"></i>
+                              <i (click)="deleteGame(game._id)" class="fas fa-trash text-danger"></i>
                             </td>
                           </tr>
                         </tbody>
                       </table>
+                      <h5 *ngIf="listGames.length == 0" class="text-aling: start; margin-top: 10px">
+                        There are no games in the database!
+                      </h5>
                 </div>
             </div>
         </div>
