@@ -1,0 +1,46 @@
+<div class="body">
+    <mat-progress-bar *ngIf="loading" mode="indeterminate"></mat-progress-bar>
+    <div class="container" *ngIf="!loading">
+        <mat-card class="card">
+            <mat-card-content class="card-content">
+                <p>
+                    OUR GAMES
+                </p>
+                <mat-form-field>
+                    <mat-label>Search...</mat-label>
+                    <input matInput type="text" [(ngModel)]="searchTerm" (keyup)="searchGames()" placeholder="...">
+                </mat-form-field>
+                <div class="genre-list">
+                    <mat-form-field>
+                        <mat-label>Select a genre</mat-label>
+                        <mat-select [(value)]="selectedGenre">
+                            <mat-option value="">All Genres</mat-option>
+                            <mat-option *ngFor="let genre of genres" [value]="genre">
+                                {{ genre }}
+                            </mat-option>
+                        </mat-select>
+                    </mat-form-field>                                                          
+                </div>                
+                <div class="card-container">
+                    <div class="game" *ngFor="let game of listGames">
+                        <div>
+                            <img [src]="game.imageUrl" alt="" [routerLink]="['/dashboard/product', game._id]">
+                        </div>
+                        <div class="title">
+                           {{game.title}}
+                        </div>
+                        <div class="price">
+                           ${{game.price}}
+                        </div>
+                        <div class="genre">
+                            {{game.genre}}
+                         </div>
+                    </div>
+                    <div *ngIf="listGames.length === 0" class="no-results">
+                        No results found for '{{ searchTerm }}'.
+                    </div>
+                </div>
+            </mat-card-content>
+        </mat-card>
+    </div>
+</div>

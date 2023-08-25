@@ -5,19 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { ReactiveFormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ToastrModule } from 'ngx-toastr';
-import { HttpClientModule } from '@angular/common/http'
+import { HttpClientModule } from '@angular/common/http';
 
 //Components
 import { AppComponent } from './app.component';
-import { ListGamesComponent } from './components/list-games/list-games.component';
-import { CreateGameComponent } from './components/create-game/create-game.component';
+import { SharedModule } from './components/shared/shared.module';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    CreateGameComponent,
-    ListGamesComponent
   ],
   imports: [
     BrowserModule,
@@ -26,6 +23,7 @@ import { CreateGameComponent } from './components/create-game/create-game.compon
     BrowserAnimationsModule,
     ToastrModule.forRoot(),
     HttpClientModule,
+    SharedModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

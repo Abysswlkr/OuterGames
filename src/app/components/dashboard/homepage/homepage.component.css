@@ -1,0 +1,185 @@
+body{
+    max-width: 1920px;
+    max-height: 1080px;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    overflow-y: hidden; 
+}
+
+mat-grid-tile {
+    background: #0f0c29;  
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29); 
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); 
+    overflow-y: hidden; 
+}
+
+/* Image Slider */
+
+.cs-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    position: relative; /* Establece el contexto de posicionamiento */
+    overflow-y: hidden; 
+}
+
+.cs-container img {
+    max-width: 100%;
+    max-height: 50%;
+    overflow-y: hidden; 
+}
+
+.cs-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: auto;
+    margin-bottom: 15px;
+    position: absolute; /* Posición absoluta con respecto a cs-container */
+    top: 0; /* Coloca el contenido en la parte superior */
+    left: 0; /* Alinea el contenido a la izquierda */
+    width: 100%; /* Ocupa el ancho completo del cs-container */
+    z-index: 1; /* Coloca el contenido de cs-buttons adelante de la imagen */
+    padding: 10px;
+    box-sizing: border-box;
+    bottom: 0;
+    overflow-y: hidden; 
+}
+
+/* Discount card content */
+
+.home-card-offers {
+    border: 2px solid white;
+    border-radius: 15px;
+    background-color: white;
+    width: 1860px;
+    height: 550px;
+}
+
+.home-title {
+    margin-top: 15px;
+    text-align: center;
+}
+
+/* Discount card content -  card game object */
+
+.card-container {
+    display: flex; 
+    margin-right: 15px;
+    margin-left: 45px;
+
+}
+
+.card-game{
+    height: 400px;
+    width: 250px;
+    justify-content: center;
+    margin-top: 25px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+
+.card-game img {
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    max-width: 100%;
+}
+
+.card-title {
+    text-align: start;
+    margin: 15px 15px auto;
+    text-transform: uppercase;
+    color: #302b63;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-height: 1.2;
+    max-height: 2.4em;
+    font-size: medium;
+}
+
+.card-price{
+    text-align: start;
+    margin: 15px 15px auto;
+    text-transform: uppercase; 
+    color: #696969; 
+    font-weight: bold; 
+}
+
+
+/* Discount card content - buttons*/
+
+.option-pages{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: auto;
+    margin-bottom: 15px;
+}
+
+/* About Us content*/
+
+.about-us-card {
+    border: 2px solid white;
+    border-radius: 15px;
+    background-color: white;
+    width: 930px;
+    height: 570px;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.au-title{
+    margin-top: 20px;
+    margin-right:30px;
+    margin-bottom: 20px;
+    text-align: end;
+    font-size: xx-large;
+}
+
+.au-text{
+    margin-top: 20px;
+    margin-right:30px;
+    margin-left: 30px;
+    text-align: justify;
+    font-size: medium;
+}
+
+.au-text-title{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-align: end;
+    font-size: medium;
+}
+
+
+.division {
+    margin-bottom: 5px;
+}
+
+.message {
+    text-align: center;
+    margin: 65px auto;
+    font-weight: lighter;
+    font-size: larger;
+    font-style: italic;
+}
+
+.au-img{
+    margin: 200px 200px 150px;
+    width: 500px;
+}

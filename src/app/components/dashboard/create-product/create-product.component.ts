@@ -1,20 +1,28 @@
 import { Component, OnInit } from '@angular/core';
-import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 import { ActivatedRoute, Router } from '@angular/router';
-import { Game } from 'src/app/models/game';
 import { ToastrService } from 'ngx-toastr';
+import { Game } from 'src/app/models/game';
 import { GameService } from 'src/app/services/game.service';
 
 @Component({
-  selector: 'app-create-game',
-  templateUrl: './create-game.component.html',
-  styleUrls: ['./create-game.component.css']
+  selector: 'app-create-product',
+  templateUrl: './create-product.component.html',
+  styleUrls: ['./create-product.component.css']
 })
-export class CreateGameComponent implements OnInit {
+export class CreateProductComponent implements OnInit {
+  loading = true;
   gameForm: FormGroup;
   titulo = 'CREATE NEW GAME';
+  genre = new FormControl('');
+  genreList: string[] = ['Action', 'Adventure', 'Role-Playing (RPG)', 'Strategy', 'Simulation', 'Puzzle', 'Sports', 'Racing', 'Fighting', 'Horror', 'Sandbox', 'Platformer', 'Shooter', 'Stealth', 'Music/Rhythm', 'Educational'];
+  platform = new FormControl('');
+  platformList: string[] = ['PlayStation 5 (PS5)', 'Xbox Series X', 'Nintendo Switch', 'PlayStation 4 (PS4)', 'Xbox One', 'Nintendo 3DS', 'PC (Windows)', 'PlayStation 3 (PS3)', 'Xbox 360', 'Wii U', 'Wii', 'PlayStation 2 (PS2)', 'Xbox', 'GameCube', 'PlayStation (PS1)', 'Nintendo 64', 'Super Nintendo Entertainment System (SNES)', 'Sega Genesis'];
   id: string | null;
 
+
+
+  
   constructor(private fb: FormBuilder,
               private router: Router,
               private toastr: ToastrService,
@@ -35,7 +43,14 @@ export class CreateGameComponent implements OnInit {
    }
 
   ngOnInit(): void {
+    this.waiting();
     this.editGame();
+  }
+
+  waiting() {
+    setTimeout(() =>{
+      this.loading = false;
+    }, 2000);
   }
 
   createGame() {
@@ -56,7 +71,7 @@ export class CreateGameComponent implements OnInit {
       //EDIT GAME
       this._gameService.editGame(this.id, GAME).subscribe(data => {
         this.toastr.info('The game parameters change successfully..', 'Game edited!');
-        this.router.navigate(['/list-games']);
+        this.router.navigate(['/dashboard/products-list']);
       }, error => {
         console.log(error);
         this.gameForm.reset();
@@ -66,14 +81,12 @@ export class CreateGameComponent implements OnInit {
       console.log(GAME);
       this._gameService.createGame(GAME).subscribe(data => {
         this.toastr.success('The game was successfully created..', 'Game created!');
-        this.router.navigate(['/list-games']);
+        this.router.navigate(['/dashboard/products-list']);
       }, error => {
         console.log(error);
         this.gameForm.reset();
       })
     }
-
-
   }
 
   editGame() {

@@ -1,0 +1,75 @@
+<div class="body">
+    <mat-progress-bar *ngIf="loading" mode="indeterminate"></mat-progress-bar>
+    <mat-grid-list *ngIf="!loading"  cols="4" rowHeight="300px">
+        <!-- Carrousel -->
+        <mat-grid-tile colspan="4" rowspan="2">
+            <div class="cs-container">
+                <div *ngFor="let carrousel of visibleImages">
+                    <div class="cs-img">
+                        <img [src]="carrousel.img">
+                    </div>
+                    <div class="cs-buttons">
+                        <mat-radio-group [(ngModel)]="currentImage">
+                            <mat-radio-button value="1"></mat-radio-button>
+                            <mat-radio-button value="2"></mat-radio-button>
+                            <mat-radio-button value="3"></mat-radio-button>
+                            <mat-radio-button value="4"></mat-radio-button>
+                        </mat-radio-group>                      
+                    </div>
+                </div>
+            </div>
+        </mat-grid-tile>
+
+        <!-- Offers -->
+        <mat-grid-tile colspan="4" rowspan="2">
+            <mat-card class="home-card-offers">
+                <div class="home-title">
+                    <h2>Exclusive discounts you can only get <strong>Here</strong>, check out our Offers!</h2>
+                </div>
+                <mat-divider></mat-divider>
+                <!-- card offers content -->
+                <div class="card-container" [@bounceIn]="bounceIn" >
+                    <div *ngFor="let card of visibleCards" class="card-game" >
+                        <div>
+                            <img [src]="card.imageUrl" alt="" (click)="gameDetails()">
+                        </div>
+                        <div class="card-title">
+                            {{ card.title }}
+                        </div>
+                        <div class="card-price">
+                            {{ card.price }}
+                        </div>
+                    </div>
+                </div>
+                <div class="option-pages">
+                    <mat-radio-group [(ngModel)]="currentPage">
+                        <mat-radio-button value="1" (click)="triggerbounceInAnimation()"></mat-radio-button>
+                        <mat-radio-button value="2" (click)="triggerbounceInAnimation()"></mat-radio-button>
+                        <mat-radio-button value="3" (click)="triggerbounceInAnimation()"></mat-radio-button>
+                    </mat-radio-group>                      
+                </div>
+            </mat-card>
+        </mat-grid-tile>
+
+        <!-- About Us -->
+        <mat-grid-tile colspan="4" rowspan="2">
+            <div class="au-img">
+                <img src="../../../../assets/img/About-us.png">
+            </div>
+            <mat-card class="about-us-card" *ngFor="let text of texts">
+                <div class="au-title">
+                    ABOUT US
+                </div>
+                <mat-divider></mat-divider>
+                <div class="au-text">
+                    <div class="au-text-title">{{ text.title1 }}</div>
+                    <div class="division"> {{ text.text1 }} </div>
+                    <div class="division"> {{ text.text2 }} </div>
+                    <div class="division"> {{ text.text3 }} </div>
+                    <div class="message"> {{ text.text4 }} </div>
+                </div>
+            </mat-card>
+        </mat-grid-tile>
+    </mat-grid-list>   
+</div>
+

@@ -1,0 +1,93 @@
+/* CSS CONTENT CARD */
+
+.card {
+    display: flex;
+    flex-direction: column;
+    margin: 15px auto;
+    height: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.card-container{
+    display: grid; 
+    grid-template-columns: repeat(6, 1fr);
+    justify-content: center;
+    margin-right: 50px;
+}
+
+p {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.game{
+    height: 400px;
+    width: 250px;
+    justify-content: center;
+    margin-top: 25px;
+    margin-left: 45px;
+}
+
+
+.game img {
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    max-width: 100%;
+}
+
+.title {
+    text-align: start;
+    margin: 15px 15px auto;
+    text-transform: uppercase;
+    color: #302b63;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-height: 1.2;
+    max-height: 2.4em;
+    font-size: medium;
+}
+
+.genre{
+    text-align: start;
+    margin: 20px 15px auto;
+    color: #929292; 
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-height: 1.2;
+    max-height: 2.4em;
+}
+
+.price{
+    text-align: start;
+    margin: 15px 15px auto;
+    text-transform: uppercase; 
+    color: #696969; 
+    font-weight: bold; 
+}
+
+
+
+.no-results {
+    margin-top: 40px;
+    margin-left: 5px;
+    font-size: large;
+    margin-bottom: 30px;
+}
+
+mat-form-field{
+    min-width: 100%;
+}

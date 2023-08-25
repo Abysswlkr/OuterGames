@@ -1,0 +1,37 @@
+table {
+    width: 100%;
+  }
+
+.title {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: xx-large;
+  color: white;
+}
+
+.button-new {
+  position: relative;
+  bottom: 15px;
+  left: 15px;
+  width: 1890px;
+}
+  
+.mat-mdc-form-field {
+  font-size: 14px;
+  width: 98.5%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.mat-elevation-z8{
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+
+
+

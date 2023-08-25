@@ -1,0 +1,71 @@
+<mat-progress-bar *ngIf="loading" mode="indeterminate"></mat-progress-bar>
+<div class="container" *ngIf="!loading">
+    <mat-card>
+        <div class="title-and-return">
+            <div class="title">
+                {{ titulo | uppercase }}
+            </div>
+            <div class="return-btn">
+              <button mat-raised-button color="secondary" routerLink="/dashboard/products-list">RETURN</button>
+            </div>
+        </div>
+        <form class="form" [formGroup]="gameForm" (ngSubmit)="createGame()">
+            <mat-form-field class="form-fields">
+              <mat-label>Title</mat-label>
+              <input type="title" formControlName="title" matInput placeholder="Ex. Outer Wilds">
+            </mat-form-field>
+
+            <mat-form-field class="form-fields">
+                <mat-label>Description</mat-label>
+                <textarea matInput #description maxlength="256" formControlName="description"
+                placeholder="Ex. Write the game description"></textarea>
+                <mat-hint align="end">{{description.value.length}} / 256</mat-hint>
+            </mat-form-field>
+
+            <mat-form-field class="form-fields">
+              <mat-label>Select Genre</mat-label>
+              <mat-select formControlName="genre" multiple>
+                <mat-option *ngFor="let genre of genreList" [value]="genre">{{genre}}</mat-option>
+              </mat-select>
+            </mat-form-field>
+
+            <mat-form-field class="form-fields">
+              <mat-label>Select Platform</mat-label>
+              <mat-select formControlName="platform" multiple>
+                <mat-option *ngFor="let platform of platformList" [value]="platform">{{platform}}</mat-option>
+              </mat-select>
+            </mat-form-field>
+
+              <mat-form-field class="form-fields">
+                <mat-label>Price</mat-label>
+                <input type="number" matInput formControlName="price" placeholder="Put the game price">
+              </mat-form-field>
+
+              <mat-form-field class="form-fields">
+                <mat-label>Choose a Released Date</mat-label>
+                <input matInput [matDatepicker]="picker" formControlName="releaseDate">
+                <mat-hint>MM/DD/YYYY</mat-hint>
+                <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+                <mat-datepicker #picker></mat-datepicker>
+              </mat-form-field>
+
+              <mat-form-field class="form-fields">
+                <mat-label>Publisher</mat-label>
+                <input type="publisher" matInput formControlName="publisher" placeholder="Ex. Annapurna Interactive">
+              </mat-form-field>
+              
+              <mat-form-field class="form-fields">
+                <mat-label>Image</mat-label>
+                <input type="title" matInput formControlName="imageUrl" placeholder="Ex. Outer Wilds">
+              </mat-form-field>
+
+              <section class="form-fields">
+                <mat-checkbox formControlName="isOnSale" value="after">The game is on sale now?</mat-checkbox>
+              </section>
+
+              <div class="form-fields">
+                <button mat-raised-button type="submit" color="primary" [disabled]="gameForm.invalid">SUMBIT</button>
+              </div>
+          </form>       
+    </mat-card>
+</div>

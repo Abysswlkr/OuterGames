@@ -1,13 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { ListGamesComponent } from './components/list-games/list-games.component';
-import { CreateGameComponent } from './components/create-game/create-game.component';
 
 const routes: Routes = [
-  { path: 'list-games', component: ListGamesComponent },
-  { path: 'create-game', component: CreateGameComponent},
-  { path: 'edit-game/:id', component: CreateGameComponent},
-  { path: '**', redirectTo: 'list-games', pathMatch: 'full' }
+  { path: '', redirectTo: 'dashboard', pathMatch: 'full'},
+  //Lazy loading (This means that as soon as the application loads, so do all the NgModules, whether they are immediately necessary or not)
+  { path: 'dashboard',  loadChildren: () => import ('./components/dashboard/dashboard.module').then(x => x.DashboardModule) },
+  { path: '**', redirectTo: 'dashboard', pathMatch: 'full' }
 ];
 
 @NgModule({

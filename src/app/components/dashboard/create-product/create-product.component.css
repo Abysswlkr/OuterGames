@@ -1,0 +1,63 @@
+/* Validators CSS  */
+
+.text-danger {
+    text-align: start;
+    margin-left: 5px;
+}
+
+/* Body Card */
+
+.container {
+    width: 50%;
+    margin-top: 40px;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.title-and-return {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px; /* Adjust spacing as needed */
+  }
+  
+  .title {
+    margin-left: 120px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex: 1;
+    text-align: center;
+    font-size: xx-large;
+  }
+  
+
+/* Form */
+
+.form {
+    min-width: 150px;
+    max-width: 600px;
+    width: 100%;
+  }
+  
+.form-fields {
+    width: 100%;
+    margin-left: 175px;
+    margin-bottom: 15px;
+}
+
+
+.buttons {
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.return-btn {
+    margin-right: 15px;
+
+}
+
+button {
+    width: 100px;
+}
