@@ -29,7 +29,7 @@ export class GamesListComponent implements OnInit{
   waiting() {
     setTimeout(() =>{
       this.loading = false;
-    }, 2000);
+    }, 3500);
   }
 
   getGames() {
@@ -50,6 +50,22 @@ export class GamesListComponent implements OnInit{
       this.getGames();
     }
   }
+
+  applyGenreFilter() {
+    this.searchTerm = ''; // Reiniciar la palabra de búsqueda
+    
+    if (this.selectedGenre) {
+        if (this.selectedGenre === "") {
+            this.getGames(); // Mostrar todos los juegos si se selecciona "All Genres"
+        } else {
+            this.listGames = this._gameService.filterGamesByGenre(
+                this.listGames, this.selectedGenre
+            );
+        }
+    } else {
+        this.getGames(); // Reiniciar la lista cuando no se selecciona un género
+    }
+}
 
 }
 

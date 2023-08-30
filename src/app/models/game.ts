@@ -2,8 +2,8 @@ export class Game {
     _id?: number;
     title: string;
     description: string;
-    genre: string;
-    platform: string;
+    genre: string[];
+    platform: string[];
     price: number;
     releaseDate: Date;
     publisher: string;
@@ -11,7 +11,7 @@ export class Game {
     isOnSale: boolean;
 
     constructor(title: string, description: string,
-                genre: string, platform: string, 
+                genre: string[], platform: string[], 
                 price: number, releaseDate: Date,
                 publisher: string, imageUrl: string, isOnSale: boolean) {
         this.title = title;

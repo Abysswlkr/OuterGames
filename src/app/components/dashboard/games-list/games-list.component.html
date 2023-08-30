@@ -4,7 +4,7 @@
         <mat-card class="card">
             <mat-card-content class="card-content">
                 <p>
-                    OUR GAMES
+                    CHECK OUT OUR GAMES!
                 </p>
                 <mat-form-field>
                     <mat-label>Search...</mat-label>
@@ -13,31 +13,28 @@
                 <div class="genre-list">
                     <mat-form-field>
                         <mat-label>Select a genre</mat-label>
-                        <mat-select [(value)]="selectedGenre">
+                        <mat-select [(ngModel)]="selectedGenre" (ngModelChange)="applyGenreFilter()">
                             <mat-option value="">All Genres</mat-option>
                             <mat-option *ngFor="let genre of genres" [value]="genre">
                                 {{ genre }}
                             </mat-option>
                         </mat-select>
-                    </mat-form-field>                                                          
+                    </mat-form-field>                                                                                              
                 </div>                
                 <div class="card-container">
-                    <div class="game" *ngFor="let game of listGames">
+                    <div class="game" *ngFor="let game of listGames" [routerLink]="['/dashboard/product', game._id]">
                         <div>
-                            <img [src]="game.imageUrl" alt="" [routerLink]="['/dashboard/product', game._id]">
+                            <img [src]="game.imageUrl" alt="" >
                         </div>
                         <div class="title">
                            {{game.title}}
                         </div>
                         <div class="price">
-                           ${{game.price}}
+                           ${{game.price}} USD
                         </div>
                         <div class="genre">
                             {{game.genre}}
-                         </div>
-                    </div>
-                    <div *ngIf="listGames.length === 0" class="no-results">
-                        No results found for '{{ searchTerm }}'.
+                        </div>
                     </div>
                 </div>
             </mat-card-content>

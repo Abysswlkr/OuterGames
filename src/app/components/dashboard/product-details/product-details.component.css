@@ -1,0 +1,49 @@
+.container{
+    display: grid;
+    margin: 15px 15px 15px 15px;
+}
+
+.details {
+    height: auto;
+    width: auto;
+    display: flex;
+    margin: 15px 15px
+}
+
+.img-details img {
+    border-radius: 15px;
+    width: 650px;
+    max-width: 100%;
+}
+
+.text-details {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.text-details h1 {
+    font-size: xxx-large;
+    margin-bottom: 50px;
+}
+
+.mat-divider{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.buttons {
+    margin-top: 100px;
+}
+
+.buttons button {
+    margin-right: 20px;
+}
+
+.footer-details {
+    display: flex;
+    margin: 15px 15px 15px;
+}
+
+.video {
+    margin-right: 50px;
+}

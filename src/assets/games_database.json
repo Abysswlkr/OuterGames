@@ -1,0 +1,1032 @@
+[
+    {
+        "_id": "64e769e88e6f71418afde9eb",
+        "title": "Metal Gear Solid",
+        "description": "Iconic stealth-action game developed by Konami. Released in 1998, it follows the story of Solid Snake, a special operative tasked with infiltrating a nuclear weapons facility to thwart a terrorist plot. ",
+        "genre": [
+            "Action",
+            "Adventure",
+            "Shooter",
+            "Stealth"
+        ],
+        "platform": [
+            "PlayStation (PS1)"
+        ],
+        "price": 50,
+        "releaseDate": "1998-06-09T04:00:00.000Z",
+        "publisher": "Konami",
+        "ratings": [],
+        "imageUrl": "https://assets-prd.ignimgs.com/2022/01/18/mgs-gbcart-sq-1642524642955.jpg",
+        "isOnSale": true,
+        "creationDate": "2023-08-24T14:26:16.217Z",
+        "__v": 0
+    },
+    {
+        "_id": "64ecbaec7dca04a358221323",
+        "title": "The Outer Worlds",
+        "description": "Open World RPG game",
+        "genre": [
+            "Action"
+        ],
+        "platform": [
+            "PlayStation 5 (PS5)",
+            "PlayStation 4 (PS4)",
+            "Xbox One",
+            "PC (Windows)"
+        ],
+        "price": 30,
+        "releaseDate": "2023-08-28T04:00:00.000Z",
+        "publisher": "Bethesda",
+        "ratings": [],
+        "imageUrl": "https://cdn.mobygames.com/covers/8281688-the-outer-worlds-playstation-4-front-cover.jpg",
+        "isOnSale": true,
+        "creationDate": "2023-08-28T14:22:46.475Z",
+        "__v": 0
+    },
+    {
+        "_id": "64ecc3267dca04a35822139b",
+        "title": "Age of Empires II",
+        "description": "Strategy game of medieval wars",
+        "genre": [
+            "Strategy",
+            "Simulation"
+        ],
+        "platform": [
+            "Nintendo Switch",
+            "PC (Windows)",
+            "PlayStation 2 (PS2)"
+        ],
+        "price": 25,
+        "releaseDate": "2000-07-12T04:00:00.000Z",
+        "publisher": "Microsoft",
+        "ratings": [],
+        "imageUrl": "https://assets-prd.ignimgs.com/2022/01/13/aoe2-conquerors-sq-1642114228252.jpg",
+        "isOnSale": true,
+        "creationDate": "2023-08-28T14:22:46.475Z",
+        "__v": 0
+    },
+    {
+        "_id": "64eccbaa7dca04a3582213b9",
+        "title": "Grand Theft Auto V",
+        "description": "Open-world action-adventure game set in the fictional city of Los Santos. Players take on various roles as criminals, performing heists, and exploring a detailed sandbox world.",
+        "genre": [
+            "Action",
+            "Adventure"
+        ],
+        "platform": [
+            "PlayStation 4 (PS4)",
+            "Xbox One",
+            "PC (Windows)"
+        ],
+        "price": 29.99,
+        "releaseDate": "2013-09-17T00:00:00.000Z",
+        "publisher": "Rockstar Games",
+        "ratings": [],
+        "imageUrl": "https://cdn.mobygames.com/covers/7124455-grand-theft-auto-v-playstation-4-front-cover.jpg",
+        "isOnSale": true,
+        "creationDate": "2023-08-28T14:22:46.475Z",
+        "__v": 0
+    },
+    {
+        "_id": "64eccc167dca04a3582213bd",
+        "title": "The Legend of Zelda: Breath of the Wild",
+        "description": "Action-adventure game set in the fantasy world of Hyrule. Players explore an open world, solve puzzles, battle enemies, and uncover the story of the legendary hero, Link.",
+        "genre": [
+            "Action",
+            "Adventure"
+        ],
+        "platform": [
+            "Nintendo Switch",
+            "Wii U"
+        ],
+        "price": 59.99,
+        "releaseDate": "2017-03-03T00:00:00.000Z",
+        "publisher": "Nintendo",
+        "ratings": [],
+        "imageUrl": "https://cdn.mobygames.com/covers/8437192-the-legend-of-zelda-breath-of-the-wild-nintendo-switch-front-cov.jpg",
+        "isOnSale": false,
+        "creationDate": "2023-08-28T14:22:46.475Z",
+        "__v": 0
+    },
+    {
+        "_id": "64eccc457dca04a3582213c0",
+        "title": "The Witcher 3: Wild Hunt",
+        "description": "Action RPG based on the book series. Players control Geralt of Rivia as he embarks on a quest to find his missing adopted daughter. The game features an open world with rich storytelling.",
+        "genre": [
+            "Role-Playing (RPG)",
+            "Action"
+        ],
+        "platform": [
+            "PlayStation 4 (PS4)",
+            "Xbox One",
+            "PC (Windows)"
+        ],
+        "price": 39.99,
+        "releaseDate": "2015-05-19T00:00:00.000Z",
+        "publisher": "CD Projekt",
+        "ratings": [],
+        "imageUrl": "https://cdn.mobygames.com/covers/7778758-the-witcher-3-wild-hunt-complete-edition-nintendo-switch-front-c.jpg",
+        "isOnSale": true,
+        "creationDate": "2023-08-28T14:22:46.475Z",
+        "__v": 0
+    },
+    {
+        "_id": "64ecccac7dca04a3582213c3",
+        "title": "Minecraft",
+        "description": "Sandbox game that allows players to build and explore virtual worlds made of blocks. Players can craft items, mine resources, and embark on various adventures.",
+        "genre": [
+            "Sandbox",
+            "Adventure"
+        ],
+        "platform": [
+            "PC (Windows)",
+            "PlayStation 4 (PS4)",
+            "Xbox One"
+        ],
+        "price": 19.99,
+        "releaseDate": "2011-11-18T00:00:00.000Z",
+        "publisher": "Mojang",
+        "ratings": [],
+        "imageUrl": "https://cdn.mobygames.com/covers/3364463-minecraft-nintendo-switch-front-cover.jpg",
+        "isOnSale": false,
+        "creationDate": "2023-08-28T14:22:46.475Z",
+        "__v": 0
+    },
+    {
+        "_id": "64ecccdc7dca04a3582213c6",
+        "title": "Red Dead Redemption 2",
+        "description": "Open-world action-adventure set in the late 1800s. Players control Arthur Morgan, an outlaw, as he navigates through the American frontier. The game features a detailed world and a captivating story.",
+        "genre": [
+            "Action",
+            "Adventure"
+        ],
+        "platform": [
+            "PlayStation 4 (PS4)",
+            "Xbox One"
+        ],
+        "price": 49.99,
+        "releaseDate": "2018-10-26T00:00:00.000Z",
+        "publisher": "Rockstar Games",
+        "ratings": [],
+        "imageUrl": "https://cdn.mobygames.com/covers/3288368-red-dead-redemption-ii-playstation-4-front-cover.jpg",
+        "isOnSale": true,
+        "creationDate": "2023-08-28T14:22:46.475Z",
+        "__v": 0
+    },
+    {
+        "_id": "64eccd2a7dca04a3582213c8",
+        "title": "Overwatch",
+        "description": "Team-based multiplayer first-person shooter with unique heroes, each having distinct abilities. Players engage in fast-paced matches to achieve objectives and win matches.",
+        "genre": [
+            "Shooter",
+            "Action"
+        ],
+        "platform": [
+            "PlayStation 4 (PS4)",
+            "Xbox One",
+            "PC (Windows)"
+        ],
+        "price": 29.99,
+        "releaseDate": "2016-05-24T00:00:00.000Z",
+        "publisher": "Blizzard Entertainment",
+        "ratings": [],
+        "imageUrl": "https://cdn.mobygames.com/covers/3469560-overwatch-legendary-edition-playstation-4-front-cover.jpg",
+        "isOnSale": false,
+        "creationDate": "2023-08-28T14:22:46.475Z",
+        "__v": 0
+    },
+    {
+        "_id": "64eccd917dca04a3582213ca",
+        "title": "Dark Souls III",
+        "description": "Action RPG known for its challenging gameplay and atmospheric world. Players navigate through treacherous environments, battle tough enemies, and uncover a deep lore.",
+        "genre": [
+            "Action",
+            "Role-Playing (RPG)"
+        ],
+        "platform": [
+            "PlayStation 3 (PS3)",
+            "Xbox 360",
+            "PC (Windows)"
+        ],
+        "price": 39.99,
+        "releaseDate": "2011-09-22T00:00:00.000Z",
+        "publisher": "FromSoftware",
+        "ratings": [],
+        "imageUrl": "https://cdn.mobygames.com/covers/8503112-dark-souls-iii-playstation-4-front-cover.jpg",
+        "isOnSale": true,
+        "creationDate": "2023-08-28T14:22:46.475Z",
+        "__v": 0
+    },
+    {
+        "_id": "64eccdba7dca04a3582213cc",
+        "title": "The Elder Scrolls V: Skyrim",
+        "description": "Open-world RPG set in the fantasy world of Tamriel. Players create their character and embark on quests, explore dungeons, and engage in various activities.",
+        "genre": [
+            "Role-Playing (RPG)",
+            "Adventure"
+        ],
+        "platform": [
+            "PlayStation 4 (PS4)",
+            "Xbox One",
+            "PC (Windows)"
+        ],
+        "price": 49.99,
+        "releaseDate": "2011-11-11T00:00:00.000Z",
+        "publisher": "Bethesda Game Studios",
+        "ratings": [],
+        "imageUrl": "https://cdn.mobygames.com/covers/10158255-the-elder-scrolls-v-skyrim-special-edition-playstation-4-front-c.jpg",
+        "isOnSale": false,
+        "creationDate": "2023-08-28T14:22:46.475Z",
+        "__v": 0
+    },
+    {
+        "_id": "64eccdf77dca04a3582213ce",
+        "title": "Halo: Combat Evolved",
+        "description": "First-person shooter that introduced players to the iconic Master Chief. Players battle the alien Covenant forces on the mysterious ringworld known as Halo.",
+        "genre": [
+            "Shooter",
+            "Action"
+        ],
+        "platform": [
+            "Xbox",
+            "PC (Windows)"
+        ],
+        "price": 19.99,
+        "releaseDate": "2001-11-15T00:00:00.000Z",
+        "publisher": "Microsoft Game Studios",
+        "ratings": [],
+        "imageUrl": "https://assets-prd.ignimgs.com/2022/01/04/haloanniversary-1641338771951.jpg",
+        "isOnSale": true,
+        "creationDate": "2023-08-28T14:22:46.475Z",
+        "__v": 0
+    },
+    {
+        "_id": "64ecce307dca04a3582213d0",
+        "title": "Fallout 4",
+        "description": "Post-apocalyptic RPG set in a retro-futuristic world devastated by nuclear war. Players navigate through the wasteland, interact with factions, and make pivotal choices.",
+        "genre": [
+            "Role-Playing (RPG)",
+            "Adventure"
+        ],
+        "platform": [
+            "PlayStation 4 (PS4)",
+            "Xbox One",
+            "PC (Windows)"
+        ],
+        "price": 39.99,
+        "releaseDate": "2015-11-10T00:00:00.000Z",
+        "publisher": "Bethesda Game Studios",
+        "ratings": [],
+        "imageUrl": "https://cdn.mobygames.com/covers/857614-fallout-4-digital-deluxe-bundle-playstation-4-front-cover.jpg",
+        "isOnSale": false,
+        "creationDate": "2023-08-28T14:22:46.475Z",
+        "__v": 0
+    },
+    {
+        "_id": "64ecd01f7dca04a3582213d2",
+        "title": "Bioshock",
+        "description": "First-person shooter set in the underwater city of Rapture. Players explore the decaying city, engage in morally challenging situations, and uncover its dark history.",
+        "genre": [
+            "Shooter",
+            "Action"
+        ],
+        "platform": [
+            "PlayStation 3 (PS3)",
+            "Xbox 360",
+            "PC (Windows)"
+        ],
+        "price": 19.99,
+        "releaseDate": "2007-08-21T00:00:00.000Z",
+        "publisher": "2K Games",
+        "ratings": [],
+        "imageUrl": "https://cdn.mobygames.com/covers/8415669-bioshock-remastered-nintendo-switch-front-cover.jpg",
+        "isOnSale": true,
+        "creationDate": "2023-08-28T14:22:46.475Z",
+        "__v": 0
+    },
+    {
+        "_id": "64ecd0547dca04a3582213d4",
+        "title": "Mass Effect 2",
+        "description": "Action RPG sequel where players continue the story of Commander Shepard. Build a team, make impactful decisions, and prepare to face an ancient alien threat.",
+        "genre": [
+            "Role-Playing (RPG)",
+            "Action"
+        ],
+        "platform": [
+            "PlayStation 3 (PS3)",
+            "Xbox 360",
+            "PC (Windows)"
+        ],
+        "price": 29.99,
+        "releaseDate": "2010-01-26T00:00:00.000Z",
+        "publisher": "Electronic Arts",
+        "ratings": [],
+        "imageUrl": "https://assets-prd.ignimgs.com/2021/12/08/masseffect2-1638987512795.jpg",
+        "isOnSale": false,
+        "creationDate": "2023-08-28T14:22:46.475Z",
+        "__v": 0
+    },
+    {
+        "_id": "64ecd0757dca04a3582213d6",
+        "title": "Portal 2",
+        "description": "Puzzle-platformer sequel with innovative gameplay mechanics. Players use a portal gun to solve puzzles and navigate through test chambers in the Aperture Science facility.",
+        "genre": [
+            "Puzzle",
+            "Platformer"
+        ],
+        "platform": [
+            "PlayStation 3 (PS3)",
+            "Xbox 360",
+            "PC (Windows)"
+        ],
+        "price": 24.99,
+        "releaseDate": "2011-04-18T00:00:00.000Z",
+        "publisher": "Valve",
+        "ratings": [],
+        "imageUrl": "https://nopaystation.com/images/PS3/US/covers/UP2061-NPUB31077_00-PORTAL2DIGITAL01.png",
+        "isOnSale": true,
+        "creationDate": "2023-08-28T14:22:46.475Z",
+        "__v": 0
+    },
+    {
+        "_id": "64ecd09f7dca04a3582213d8",
+        "title": "The Last of Us",
+        "description": "Action-adventure game set in a post-apocalyptic world. Players control Joel and Ellie as they navigate dangerous environments, combat infected, and form a strong bond.",
+        "genre": [
+            "Action",
+            "Adventure"
+        ],
+        "platform": [
+            "PlayStation 3 (PS3)",
+            "PlayStation 4 (PS4)"
+        ],
+        "price": 39.99,
+        "releaseDate": "2013-06-14T00:00:00.000Z",
+        "publisher": "Sony Computer Entertainment",
+        "ratings": [],
+        "imageUrl": "https://cdn.mobygames.com/promos/332406-the-last-of-us-wallpaper-ipad.jpg",
+        "isOnSale": false,
+        "creationDate": "2023-08-28T14:22:46.475Z",
+        "__v": 0
+    },
+    {
+        "_id": "64ecd0e47dca04a3582213da",
+        "title": "Fallout: New Vegas",
+        "description": "Action RPG spin-off set in the Fallout universe. Players assume the role of the Courier navigating the Mojave Wasteland, encountering factions and making choices.",
+        "genre": [
+            "Role-Playing (RPG)",
+            "Action"
+        ],
+        "platform": [
+            "PlayStation 3 (PS3)",
+            "Xbox 360",
+            "PC (Windows)"
+        ],
+        "price": 29.99,
+        "releaseDate": "2010-10-19T00:00:00.000Z",
+        "publisher": "Bethesda Softworks",
+        "ratings": [],
+        "imageUrl": "https://i.playground.ru/e/yFkwIbJQRS2YoGt0_VuHug.jpeg?800x800",
+        "isOnSale": true,
+        "creationDate": "2023-08-28T14:22:46.475Z",
+        "__v": 0
+    },
+    {
+        "_id": "64ecd1187dca04a3582213dc",
+        "title": "Super Mario Odyssey",
+        "description": "Platformer adventure starring Mario in a globe-trotting quest to rescue Princess Peach. Use Mario's cap to possess objects and enemies, uncovering hidden secrets.",
+        "genre": [
+            "Platformer",
+            "Adventure"
+        ],
+        "platform": [
+            "Nintendo Switch"
+        ],
+        "price": 49.99,
+        "releaseDate": "2017-10-27T00:00:00.000Z",
+        "publisher": "Nintendo",
+        "ratings": [],
+        "imageUrl": "https://cdn.mobygames.com/covers/10331131-super-mario-odyssey-nintendo-switch-front-cover.jpg",
+        "isOnSale": true,
+        "creationDate": "2023-08-28T14:22:46.475Z",
+        "__v": 0
+    },
+    {
+        "_id": "64ecd1557dca04a3582213de",
+        "title": "Half-Life 2",
+        "description": "First-person shooter known for its immersive storytelling and physics-based gameplay. Players assume the role of Gordon Freeman, battling against alien forces.",
+        "genre": [
+            "Shooter",
+            "Action"
+        ],
+        "platform": [
+            "PC (Windows)"
+        ],
+        "price": 19.99,
+        "releaseDate": "2004-11-16T00:00:00.000Z",
+        "publisher": "Valve",
+        "ratings": [],
+        "imageUrl": "https://www.cloudgamingcatalogue.com/wp-content/uploads/2022/01/Half-Life-2.jpg",
+        "isOnSale": false,
+        "creationDate": "2023-08-28T14:22:46.475Z",
+        "__v": 0
+    },
+    {
+        "_id": "64ecd1a17dca04a3582213e0",
+        "title": "World of Warcraft",
+        "description": "Massively multiplayer online role-playing game set in the high-fantasy world of Azeroth. Players create characters, complete quests, and engage in epic battles.",
+        "genre": [
+            "Role-Playing (RPG)",
+            "Massively Multiplayer Online (MMO)"
+        ],
+        "platform": [
+            "PC (Windows)"
+        ],
+        "price": 14.99,
+        "releaseDate": "2004-11-23T00:00:00.000Z",
+        "publisher": "Blizzard Entertainment",
+        "ratings": [],
+        "imageUrl": "https://media.licdn.com/dms/image/D4D22AQE4kIpNuuVfDg/feedshare-shrink_800/0/1683772869011?e=2147483647&v=beta&t=17M5xAk1ITyPaUM6emdn4PHu_y89aCXEc_t6q83v6E8",
+        "isOnSale": true,
+        "creationDate": "2023-08-28T14:22:46.475Z",
+        "__v": 0
+    },
+    {
+        "_id": "64ecd1bd7dca04a3582213e2",
+        "title": "Assassin's Creed II",
+        "description": "Action-adventure game set in Renaissance Italy. Players control Ezio Auditore, an assassin seeking revenge. Explore historical cities and uncover conspiracy.",
+        "genre": [
+            "Action",
+            "Adventure"
+        ],
+        "platform": [
+            "PlayStation 3 (PS3)",
+            "Xbox 360",
+            "PC (Windows)"
+        ],
+        "price": 19.99,
+        "releaseDate": "2009-11-17T00:00:00.000Z",
+        "publisher": "Ubisoft",
+        "ratings": [],
+        "imageUrl": "https://assets-prd.ignimgs.com/2021/12/20/ac3art-1640026843384.jpg",
+        "isOnSale": true,
+        "creationDate": "2023-08-28T14:22:46.475Z",
+        "__v": 0
+    },
+    {
+        "_id": "64ecd1e77dca04a3582213e4",
+        "title": "Stardew Valley",
+        "description": "Indie farming simulation game where players manage their own farm, grow crops, raise animals, mine for resources, and build relationships with townspeople.",
+        "genre": [
+            "Simulation",
+            "Role-Playing (RPG)"
+        ],
+        "platform": [
+            "PC (Windows)",
+            "PlayStation 4 (PS4)",
+            "Xbox One"
+        ],
+        "price": 14.99,
+        "releaseDate": "2016-02-26T00:00:00.000Z",
+        "publisher": "ConcernedApe",
+        "ratings": [],
+        "imageUrl": "https://thequeerblr.files.wordpress.com/2020/01/sdv-cover-art.jpg",
+        "isOnSale": false,
+        "creationDate": "2023-08-28T14:22:46.475Z",
+        "__v": 0
+    },
+    {
+        "_id": "64ecd2fa7dca04a3582213e6",
+        "title": "Uncharted 4: A Thief's End",
+        "description": "Action-adventure game following Nathan Drake's final journey. Players explore lush environments, solve puzzles, and engage in thrilling cinematic action sequences.",
+        "genre": [
+            "Action",
+            "Adventure"
+        ],
+        "platform": [
+            "PlayStation 4 (PS4)"
+        ],
+        "price": 39.99,
+        "releaseDate": "2016-05-10T00:00:00.000Z",
+        "publisher": "Sony Computer Entertainment",
+        "ratings": [],
+        "imageUrl": "https://cdn.mobygames.com/covers/10095064-uncharted-4-a-thiefs-end-playstation-4-front-cover.jpg",
+        "isOnSale": false,
+        "creationDate": "2023-08-28T14:22:46.475Z",
+        "__v": 0
+    },
+    {
+        "_id": "64ecd3297dca04a3582213e8",
+        "title": "Call of Duty: Modern Warfare",
+        "description": "First-person shooter known for its intense single-player campaign and popular multiplayer modes. Players engage in modern combat scenarios across the globe.",
+        "genre": [
+            "Shooter",
+            "Action"
+        ],
+        "platform": [
+            "PlayStation 3 (PS3)",
+            "Xbox 360",
+            "PC (Windows)"
+        ],
+        "price": 19.99,
+        "releaseDate": "2007-11-05T00:00:00.000Z",
+        "publisher": "Activision",
+        "ratings": [],
+        "imageUrl": "https://i.redd.it/i3pydb83cze71.jpg",
+        "isOnSale": true,
+        "creationDate": "2023-08-28T14:22:46.475Z",
+        "__v": 0
+    },
+    {
+        "_id": "64ecd3467dca04a3582213ea",
+        "title": "The Sims 3",
+        "description": "Life simulation game where players create and control virtual characters, guiding them through various life activities, careers, and social interactions.",
+        "genre": [
+            "Simulation"
+        ],
+        "platform": [
+            "PC (Windows)",
+            "PlayStation 3 (PS3)",
+            "Xbox 360"
+        ],
+        "price": 29.99,
+        "releaseDate": "2009-06-02T00:00:00.000Z",
+        "publisher": "Electronic Arts",
+        "ratings": [],
+        "imageUrl": "https://assets-prd.ignimgs.com/2022/01/08/sims3-1641604727761.jpg",
+        "isOnSale": true,
+        "creationDate": "2023-08-28T14:22:46.475Z",
+        "__v": 0
+    },
+    {
+        "_id": "64ecd3687dca04a3582213ec",
+        "title": "Batman: Arkham City",
+        "description": "Action-adventure game set in an open-world Gotham City. Players control Batman as he faces iconic villains and unravels a conspiracy within Arkham City.",
+        "genre": [
+            "Action",
+            "Adventure"
+        ],
+        "platform": [
+            "PlayStation 3 (PS3)",
+            "Xbox 360",
+            "PC (Windows)"
+        ],
+        "price": 24.99,
+        "releaseDate": "2011-10-18T00:00:00.000Z",
+        "publisher": "Warner Bros. Interactive Entertainment",
+        "ratings": [],
+        "imageUrl": "https://assets-prd.ignimgs.com/2021/12/08/batmanarkhamcity-1638989730511.jpg",
+        "isOnSale": false,
+        "creationDate": "2023-08-28T14:22:46.475Z",
+        "__v": 0
+    },
+    {
+        "_id": "64ecd3957dca04a3582213ee",
+        "title": "Destiny",
+        "description": "Online multiplayer first-person shooter with shared open-world elements. Players assume the role of Guardians defending Earth from various alien races.",
+        "genre": [
+            "Shooter",
+            "Massively Multiplayer Online (MMO)"
+        ],
+        "platform": [
+            "PlayStation 4 (PS4)",
+            "Xbox One"
+        ],
+        "price": 19.99,
+        "releaseDate": "2014-09-09T00:00:00.000Z",
+        "publisher": "Activision",
+        "ratings": [],
+        "imageUrl": "https://cdn.mobygames.com/covers/388605-destiny-playstation-3-front-cover.jpg",
+        "isOnSale": true,
+        "creationDate": "2023-08-28T14:22:46.475Z",
+        "__v": 0
+    },
+    {
+        "_id": "64ecd3b47dca04a3582213f0",
+        "title": "Diablo III",
+        "description": "Action RPG where players battle demonic forces and collect loot in a dark fantasy world. The game features both single-player and online cooperative modes.",
+        "genre": [
+            "Role-Playing (RPG)",
+            "Action"
+        ],
+        "platform": [
+            "PC (Windows)",
+            "PlayStation 4 (PS4)",
+            "Xbox One"
+        ],
+        "price": 29.99,
+        "releaseDate": "2012-05-15T00:00:00.000Z",
+        "publisher": "Blizzard Entertainment",
+        "ratings": [],
+        "imageUrl": "https://cdn.mobygames.com/covers/7147273-diablo-iii-reaper-of-souls-ultimate-evil-edition-playstation-4-f.jpg",
+        "isOnSale": false,
+        "creationDate": "2023-08-28T14:22:46.475Z",
+        "__v": 0
+    },
+    {
+        "_id": "64ecd3d67dca04a3582213f2",
+        "title": "Resident Evil 4",
+        "description": "Survival horror game that redefined the genre. Players control Leon S. Kennedy as he investigates a sinister cult and confronts grotesque monsters.",
+        "genre": [
+            "Horror",
+            "Action"
+        ],
+        "platform": [
+            "PlayStation 2 (PS2)",
+            "GameCube"
+        ],
+        "price": 19.99,
+        "releaseDate": "2005-01-11T00:00:00.000Z",
+        "publisher": "Capcom",
+        "ratings": [],
+        "imageUrl": "https://cdn.mobygames.com/covers/7587983-resident-evil-4-nintendo-switch-front-cover.jpg",
+        "isOnSale": true,
+        "creationDate": "2023-08-28T14:22:46.475Z",
+        "__v": 0
+    },
+    {
+        "_id": "64ecd42e7dca04a3582213f4",
+        "title": "Halo Infinite",
+        "description": "First-person shooter concluding the original Halo trilogy. Players continue the fight against the Covenant and uncover the mysteries of the Halo rings.",
+        "genre": [
+            "Shooter",
+            "Action"
+        ],
+        "platform": [
+            "Xbox 360"
+        ],
+        "price": 19.99,
+        "releaseDate": "2007-09-25T00:00:00.000Z",
+        "publisher": "Microsoft Game Studios",
+        "ratings": [],
+        "imageUrl": "https://w0.peakpx.com/wallpaper/193/206/HD-wallpaper-halo-infinite-tablet-halo-master-chief-infinite.jpg",
+        "isOnSale": true,
+        "creationDate": "2023-08-28T14:22:46.475Z",
+        "__v": 0
+    },
+    {
+        "_id": "64ecd4927dca04a3582213f8",
+        "title": "Metal Gear Solid V: The Phantom Pain",
+        "description": "Open-world stealth-action game set in the 1980s. Players control Venom Snake as he undertakes missions, builds a private army, and uncovers a complex narrative.",
+        "genre": [
+            "Action",
+            "Stealth"
+        ],
+        "platform": [
+            "PlayStation 4 (PS4)",
+            "Xbox One",
+            "PC (Windows)"
+        ],
+        "price": 39.99,
+        "releaseDate": "2015-09-01T00:00:00.000Z",
+        "publisher": "Konami",
+        "ratings": [],
+        "imageUrl": "https://cdn.mobygames.com/covers/807006-metal-gear-solid-v-the-phantom-pain-playstation-3-front-cover.jpg",
+        "isOnSale": true,
+        "creationDate": "2023-08-28T14:22:46.475Z",
+        "__v": 0
+    },
+    {
+        "_id": "64ecd96a7dca04a3582213ff",
+        "title": "Grand Theft Auto: San Andreas",
+        "description": "Open-world action-adventure game set in a fictional version of California. Players assume the role of Carl Johnson and explore the cities, engage in missions, and customize their character.",
+        "genre": [
+            "Action",
+            "Adventure"
+        ],
+        "platform": [
+            "PlayStation 2 (PS2)",
+            "Xbox",
+            "PC (Windows)"
+        ],
+        "price": 19.99,
+        "releaseDate": "2004-10-26T00:00:00.000Z",
+        "publisher": "Rockstar Games",
+        "ratings": [],
+        "imageUrl": "https://cdn.mobygames.com/covers/6984885-grand-theft-auto-san-andreas-playstation-3-front-cover.jpg",
+        "isOnSale": true,
+        "creationDate": "2023-08-28T14:22:46.475Z",
+        "__v": 0
+    },
+    {
+        "_id": "64ecd98b7dca04a358221401",
+        "title": "The Legend of Zelda: Twilight Princess",
+        "description": "Action-adventure game where players control Link in his quest to rescue Princess Zelda and save the land of Hyrule from the Twilight Realm's encroaching darkness.",
+        "genre": [
+            "Action",
+            "Adventure"
+        ],
+        "platform": [
+            "GameCube",
+            "Wii"
+        ],
+        "price": 24.99,
+        "releaseDate": "2006-11-19T00:00:00.000Z",
+        "publisher": "Nintendo",
+        "ratings": [],
+        "imageUrl": "https://pm1.aminoapps.com/6900/2fb089e2e499480c51f54a37db7a761009e223fdr1-800-800v2_uhq.jpg",
+        "isOnSale": false,
+        "creationDate": "2023-08-28T14:22:46.475Z",
+        "__v": 0
+    },
+    {
+        "_id": "64ecd9b97dca04a358221403",
+        "title": "BioShock Infinite",
+        "description": "First-person shooter set in the floating city of Columbia. Players control Booker DeWitt as he navigates the city, battles foes, and uncovers a complex narrative.",
+        "genre": [
+            "Shooter",
+            "Action"
+        ],
+        "platform": [
+            "PlayStation 3 (PS3)",
+            "Xbox 360",
+            "PC (Windows)"
+        ],
+        "price": 29.99,
+        "releaseDate": "2013-03-26T00:00:00.000Z",
+        "publisher": "2K Games",
+        "ratings": [],
+        "imageUrl": "https://cdn.mobygames.com/covers/2475976-bioshock-infinite-playstation-3-front-cover.jpg",
+        "isOnSale": true,
+        "creationDate": "2023-08-28T14:22:46.475Z",
+        "__v": 0
+    },
+    {
+        "_id": "64ecd9dc7dca04a358221405",
+        "title": "God of War",
+        "description": "Action-adventure game reimagining the iconic Kratos. Players guide Kratos and his son Atreus through Norse mythology, battling gods and monsters.",
+        "genre": [
+            "Action",
+            "Adventure"
+        ],
+        "platform": [
+            "PlayStation 4 (PS4)"
+        ],
+        "price": 49.99,
+        "releaseDate": "2018-04-20T00:00:00.000Z",
+        "publisher": "Sony Interactive Entertainment",
+        "ratings": [],
+        "imageUrl": "https://bestmart.cl/cdn/shop/products/5358600cv23d_800x.jpg?v=1674590784",
+        "isOnSale": false,
+        "creationDate": "2023-08-28T14:22:46.475Z",
+        "__v": 0
+    },
+    {
+        "_id": "64ecda097dca04a358221407",
+        "title": "The Witcher 2: Assassins of Kings",
+        "description": "Action RPG sequel with a branching narrative. Players control Geralt of Rivia as he investigates an assassination attempt on a king and faces political intrigue.",
+        "genre": [
+            "Role-Playing (RPG)",
+            "Action"
+        ],
+        "platform": [
+            "PC (Windows)",
+            "Xbox 360"
+        ],
+        "price": 29.99,
+        "releaseDate": "2011-05-17T00:00:00.000Z",
+        "publisher": "CD Projekt",
+        "ratings": [],
+        "imageUrl": "https://ph-test-11.slatic.net/p/99a43675aab13cf75d371e1e06c5a8f3.jpg",
+        "isOnSale": true,
+        "creationDate": "2023-08-28T14:22:46.475Z",
+        "__v": 0
+    },
+    {
+        "_id": "64ecda297dca04a358221409",
+        "title": "Persona 5",
+        "description": "Role-playing game with life simulation elements. Players assume the role of a high school student who becomes a phantom thief and navigates dungeons and social interactions.",
+        "genre": [
+            "Role-Playing (RPG)"
+        ],
+        "platform": [
+            "PlayStation 4 (PS4)"
+        ],
+        "price": 39.99,
+        "releaseDate": "2017-04-04T00:00:00.000Z",
+        "publisher": "Atlus",
+        "ratings": [],
+        "imageUrl": "https://cdn.mobygames.com/covers/10095055-persona-5-playstation-3-front-cover.png",
+        "isOnSale": true,
+        "creationDate": "2023-08-28T14:22:46.475Z",
+        "__v": 0
+    },
+    {
+        "_id": "64ecda857dca04a35822140b",
+        "title": "Far Cry 3 / Blood Dragon",
+        "description": "Open-world first-person shooter set on a tropical island. Players assume the role of Jason Brody, who must rescue his friends and confront dangerous mercenaries.",
+        "genre": [
+            "Shooter",
+            "Action"
+        ],
+        "platform": [
+            "PlayStation 3 (PS3)",
+            "Xbox 360",
+            "PC (Windows)"
+        ],
+        "price": 24.99,
+        "releaseDate": "2012-12-04T00:00:00.000Z",
+        "publisher": "Ubisoft",
+        "ratings": [],
+        "imageUrl": "https://cdn.mobygames.com/covers/1170865-far-cry-3-far-cry-3-blood-dragon-playstation-3-front-cover.jpg",
+        "isOnSale": false,
+        "creationDate": "2023-08-28T14:22:46.475Z",
+        "__v": 0
+    },
+    {
+        "_id": "64ecdaa57dca04a35822140d",
+        "title": "Borderlands 2",
+        "description": "First-person shooter with RPG elements and a unique cel-shaded art style. Players explore the planet Pandora, complete quests, and engage in co-op play.",
+        "genre": [
+            "Shooter",
+            "Role-Playing (RPG)"
+        ],
+        "platform": [
+            "PlayStation 3 (PS3)",
+            "Xbox 360",
+            "PC (Windows)"
+        ],
+        "price": 24.99,
+        "releaseDate": "2012-09-18T00:00:00.000Z",
+        "publisher": "2K Games",
+        "ratings": [],
+        "imageUrl": "https://cdn.mobygames.com/covers/6922823-borderlands-2-ps-vita-front-cover.jpg",
+        "isOnSale": false,
+        "creationDate": "2023-08-28T14:22:46.475Z",
+        "__v": 0
+    },
+    {
+        "_id": "64ecdae17dca04a35822140f",
+        "title": "Resident Evil 2",
+        "description": "Remake of the classic survival horror game. Players control Leon Kennedy and Claire Redfield as they navigate Raccoon City, facing zombies and biological horrors.",
+        "genre": [
+            "Horror",
+            "Action"
+        ],
+        "platform": [
+            "PlayStation 4 (PS4)",
+            "Xbox One",
+            "PC (Windows)"
+        ],
+        "price": 39.99,
+        "releaseDate": "2019-01-25T00:00:00.000Z",
+        "publisher": "Capcom",
+        "ratings": [],
+        "imageUrl": "https://cdn.mobygames.com/covers/10143432-resident-evil-2-playstation-4-front-cover.jpg",
+        "isOnSale": true,
+        "creationDate": "2023-08-28T14:22:46.475Z",
+        "__v": 0
+    },
+    {
+        "_id": "64ecdafc7dca04a358221411",
+        "title": "Monster Hunter: World",
+        "description": "Action RPG where players hunt and defeat monsters in a lush, open-world environment. Players craft gear from monster parts and team up for cooperative play.",
+        "genre": [
+            "Role-Playing (RPG)",
+            "Action"
+        ],
+        "platform": [
+            "PlayStation 4 (PS4)",
+            "Xbox One",
+            "PC (Windows)"
+        ],
+        "price": 49.99,
+        "releaseDate": "2018-01-26T00:00:00.000Z",
+        "publisher": "Capcom",
+        "ratings": [],
+        "imageUrl": "https://cdn.mobygames.com/covers/1409503-monster-hunter-world-playstation-4-front-cover.jpg",
+        "isOnSale": false,
+        "creationDate": "2023-08-28T14:22:46.475Z",
+        "__v": 0
+    },
+    {
+        "_id": "64ecdbca189ef55c11f60384",
+        "title": "Sekiro: Shadows Die Twice",
+        "description": "Action-adventure game set in a dark fantasy version of Sengoku-era Japan. Players control the one-armed wolf Sekiro as he seeks revenge and battles powerful foes.",
+        "genre": [
+            "Action",
+            "Adventure"
+        ],
+        "platform": [
+            "PlayStation 4 (PS4)",
+            "Xbox One",
+            "PC (Windows)"
+        ],
+        "price": 39.99,
+        "releaseDate": "2019-03-22T00:00:00.000Z",
+        "publisher": "Activision",
+        "ratings": [],
+        "imageUrl": "https://cdn.mobygames.com/covers/3561816-sekiro-shadows-die-twice-playstation-4-front-cover.jpg",
+        "isOnSale": true,
+        "creationDate": "2023-08-28T17:38:27.176Z",
+        "__v": 0
+    },
+    {
+        "_id": "64ecdbe2189ef55c11f60386",
+        "title": "Celeste",
+        "description": "Indie platformer with challenging gameplay and a heartfelt story. Players guide the young woman Madeline as she climbs the titular mountain, facing inner and outer challenges.",
+        "genre": [
+            "Platformer"
+        ],
+        "platform": [
+            "Nintendo Switch",
+            "PlayStation 4 (PS4)",
+            "Xbox One"
+        ],
+        "price": 14.99,
+        "releaseDate": "2018-01-25T00:00:00.000Z",
+        "publisher": "Matt Makes Games",
+        "ratings": [],
+        "imageUrl": "https://cdn.mobygames.com/covers/1272647-celeste-playstation-4-front-cover.jpg",
+        "isOnSale": false,
+        "creationDate": "2023-08-28T17:38:27.176Z",
+        "__v": 0
+    },
+    {
+        "_id": "64ecdc14189ef55c11f60388",
+        "title": "NieR: Automata",
+        "description": "Action RPG set in a distant future where humanity's remnants battle machines for control of Earth. Players control combat androids 2B, 9S, and A2 in their fight.",
+        "genre": [
+            "Role-Playing (RPG)",
+            "Action"
+        ],
+        "platform": [
+            "PlayStation 4 (PS4)",
+            "PC (Windows)",
+            "Xbox One"
+        ],
+        "price": 39.99,
+        "releaseDate": "2017-03-07T00:00:00.000Z",
+        "publisher": "Square Enix",
+        "ratings": [],
+        "imageUrl": "https://cdn.mobygames.com/covers/2045693-nier-automata-playstation-4-front-cover.jpg",
+        "isOnSale": false,
+        "creationDate": "2023-08-28T17:38:27.176Z",
+        "__v": 0
+    },
+    {
+        "_id": "64ecdc55189ef55c11f6038a",
+        "title": "Cuphead",
+        "description": "Run and gun platformer with a 1930s cartoon art style. Players control Cuphead or Mugman, battling bosses and overcoming challenging levels.",
+        "genre": [
+            "Platformer",
+            "Shooter"
+        ],
+        "platform": [
+            "Nintendo Switch",
+            "Xbox One",
+            "PC (Windows)"
+        ],
+        "price": 19.99,
+        "releaseDate": "2017-09-29T00:00:00.000Z",
+        "publisher": "Studio MDHR",
+        "ratings": [],
+        "imageUrl": "https://fifthsun.com/cdn/shop/products/18cphd00056b-001-game-cover-78-105-swatch_800x.jpg?v=1646361039",
+        "isOnSale": true,
+        "creationDate": "2023-08-28T17:38:27.176Z",
+        "__v": 0
+    },
+    {
+        "_id": "64ecdc78189ef55c11f6038c",
+        "title": "Hollow Knight",
+        "description": "Metroidvania-style action-adventure game set in the mysterious underground world of Hallownest. Players explore, fight, and uncover secrets in a beautifully designed world.",
+        "genre": [
+            "Action",
+            "Adventure"
+        ],
+        "platform": [
+            "Nintendo Switch",
+            "PlayStation 4 (PS4)",
+            "Xbox One"
+        ],
+        "price": 14.99,
+        "releaseDate": "2017-02-24T00:00:00.000Z",
+        "publisher": "Team Cherry",
+        "ratings": [],
+        "imageUrl": "https://cdn.mobygames.com/covers/3632091-hollow-knight-nintendo-switch-front-cover.jpg",
+        "isOnSale": false,
+        "creationDate": "2023-08-28T17:38:27.176Z",
+        "__v": 0
+    },
+    {
+        "_id": "64ecdc93189ef55c11f6038e",
+        "title": "Undertale",
+        "description": "Indie RPG known for its unique combat system and narrative choices. Players guide a human child through a world of monsters, deciding whether to fight or befriend them.",
+        "genre": [
+            "Role-Playing (RPG)"
+        ],
+        "platform": [
+            "PC (Windows)",
+            "Nintendo Switch",
+            "PlayStation 4 (PS4)"
+        ],
+        "price": 9.99,
+        "releaseDate": "2015-09-15T00:00:00.000Z",
+        "publisher": "Toby Fox",
+        "ratings": [],
+        "imageUrl": "https://cdn.mobygames.com/covers/3546341-undertale-nintendo-switch-front-cover.jpg",
+        "isOnSale": true,
+        "creationDate": "2023-08-28T17:38:27.176Z",
+        "__v": 0
+    }
+]

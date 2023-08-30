@@ -1,0 +1,28 @@
+<mat-progress-bar *ngIf="loading" mode="indeterminate"></mat-progress-bar>
+<body class="container" *ngIf="!loading">
+    <mat-card class="background"> 
+        <mat-card class="body">
+            <div class="image-title">
+                <img src="../../../../assets/img/OUTER_GAMES.png" alt="">
+            </div>
+                <div class="container-input">
+                    <mat-form-field>
+                        <mat-label>Enter your email</mat-label>
+                        <input matInput placeholder="pat@example.com" [formControl]="email" required>
+                        <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+                    </mat-form-field>
+                    <mat-form-field>
+                         <mat-label>Enter your password</mat-label>
+                         <input matInput [type]="hide ? 'password' : 'text'">
+                         <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+                         <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+                      </button>
+                    </mat-form-field>
+                    <div class="buttons">
+                        <button mat-button type="submit" color="primary" style="margin-right: 15px;">Log In</button>
+                        <button mat-button type="submit" color="primary">Forgot your password?</button>
+                    </div>
+                  </div>
+        </mat-card>
+    </mat-card>
+</body>

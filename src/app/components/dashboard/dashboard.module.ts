@@ -10,6 +10,8 @@ import { CreateProductComponent } from './create-product/create-product.componen
 import { ProductsListComponent } from './products-list/products-list.component';
 import { GamesListComponent } from './games-list/games-list.component';
 import { ProductDetailsComponent } from './product-details/product-details.component';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
 
 
 @NgModule({
@@ -20,7 +22,9 @@ import { ProductDetailsComponent } from './product-details/product-details.compo
     CreateProductComponent,
     ProductsListComponent,
     GamesListComponent,
-    ProductDetailsComponent
+    ProductDetailsComponent,
+    LoginComponent,
+    RegisterComponent
   ],
   imports: [
     CommonModule,

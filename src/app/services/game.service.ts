@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Observable } from 'rxjs';
+import { Observable, catchError, tap, throwError } from 'rxjs';
 import { Game } from '../models/game';
 
 @Injectable({
@@ -32,6 +32,12 @@ export class GameService {
   editGame(id: string, game: Game): Observable<any> {
     return this.http.put(this.url + id, game);
   }
+
+  filterGamesByGenre(games: Game[], genre: string): Game[] {
+    return games.filter(game =>
+        genre === "" || game.genre.some(g => g.toLowerCase().includes(genre.toLowerCase()))
+    );
+}
 
 
 }

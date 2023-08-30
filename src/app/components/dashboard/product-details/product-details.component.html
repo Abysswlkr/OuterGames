@@ -1,1 +1,47 @@
-<p>product-details works!</p>
+
+<mat-progress-bar *ngIf="loading" mode="indeterminate"></mat-progress-bar>
+<div class="container" >
+    <mat-card *ngIf="!loading">
+        <div  class="details" *ngIf="gameDetails">
+            <div class="img-details">
+                <img [src]="gameDetails.imageUrl" alt="">              
+            </div>
+            <div class="text-details">
+                <h1>
+                    {{ gameDetails.title }}
+                </h1>
+                <mat-divider></mat-divider>
+                <h3>
+                    ${{ gameDetails.price }} USD
+                </h3>
+                <h5>
+                    Genres: {{ gameDetails.genre }}
+                </h5>
+                <h5>
+                    Platform: {{ gameDetails.platform }}
+                </h5>
+                <mat-divider></mat-divider>
+                <div class="buttons">
+                    <button mat-button><mat-icon fontIcon="shopping_bag"></mat-icon>BUY</button>
+                    <button mat-button><mat-icon fontIcon="shopping_cart"></mat-icon>ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+        <div class="footer-details">
+                <div class="video">
+                    <iframe width="650" height="350" src="https://www.youtube.com/embed/GNJtPFXUnm4" title="Tenacious D - Video Games (Official Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div>
+                    <h4>
+                        {{ gameDetails.description }}
+                    </h4>
+                    <h5>
+                        <strong>Released Date: {{gameDetails.releaseDate | date:'longDate'}}</strong>
+                    </h5>
+                    <h5>
+                        <strong>Publisher: {{gameDetails.publisher}}</strong>
+                    </h5>
+                </div>
+        </div>
+</mat-card>
+</div>

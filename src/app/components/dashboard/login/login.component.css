@@ -1,0 +1,57 @@
+.container {
+    margin: 15px 15px 15px 15px; 
+}
+
+.background {
+    background-image: url('https://static.fanbyte.com/uploads/2022/07/Outer-Wilds-Planets.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 30%;
+    margin: 30px 150px 600px 650px;
+}
+
+
+.container-input mat-form-field + mat-form-field {
+    margin-left: 8px;
+  }
+
+mat-form-field {
+    width: 50%;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    
+}
+  
+  .example-right-align {
+    text-align: right;
+  }
+  
+  input.example-right-align::-webkit-outer-spin-button,
+  input.example-right-align::-webkit-inner-spin-button {
+    display: none;
+  }
+  
+  input.example-right-align {
+    -moz-appearance: textfield;
+  }
+
+  .image-title{
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }

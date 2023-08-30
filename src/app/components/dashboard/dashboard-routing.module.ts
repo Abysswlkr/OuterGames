@@ -6,11 +6,15 @@ import { ProductsListComponent } from './products-list/products-list.component';
 import { GamesListComponent } from './games-list/games-list.component';
 import { CreateProductComponent } from './create-product/create-product.component';
 import { ProductDetailsComponent } from './product-details/product-details.component';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
 
 const routes: Routes = [
   //Child Routes (All the routers that we going to use or load inside the dashboard)
   { path: '', component: DashboardComponent, children: [
     {path: '', component: HomepageComponent},
+    {path: 'login', component: LoginComponent},
+    {path: 'register', component: RegisterComponent},
     {path: 'products-list', component: ProductsListComponent},
     {path: 'product/:id', component: ProductDetailsComponent},
     {path: 'games', component: GamesListComponent},
