@@ -5,8 +5,9 @@
     <button mat-flat-button routerLink="/dashboard/games" color="primary">Products</button>
     <button mat-button [matMenuTriggerFor]="menu"><mat-icon fontIcon="account_box"></mat-icon>User Options</button>
     <mat-menu #menu="matMenu">
-    <button mat-menu-item routerLink="/dashboard/login"><mat-icon fontIcon="login"></mat-icon>Log In</button>
-    <button mat-menu-item routerLink="/dashboard/register"><mat-icon fontIcon="app_registration"></mat-icon>Register</button>
+    <button mat-menu-item routerLink="/dashboard/login" *ngIf="!userAuthenticated"><mat-icon fontIcon="login"></mat-icon>Log In</button>
+    <button mat-menu-item routerLink="/dashboard/register" *ngIf="!userAuthenticated"><mat-icon fontIcon="app_registration"></mat-icon>Register</button>
+    <button mat-menu-item *ngIf="userAuthenticated" (click)="logout()"><mat-icon fontIcon="logout"></mat-icon>Logout</button>
     </mat-menu>
-    <button mat-flat-button routerLink="/dashboard/products-list" color="primary">CRUD Game List</button>
+    <button mat-flat-button routerLink="/dashboard/products-list"  color="primary" *ngIf="userAuthenticated">CRUD Game List</button>
 </mat-toolbar>
