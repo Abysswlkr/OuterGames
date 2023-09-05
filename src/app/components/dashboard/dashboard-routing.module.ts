@@ -8,6 +8,8 @@ import { CreateProductComponent } from './create-product/create-product.componen
 import { ProductDetailsComponent } from './product-details/product-details.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
+import { UserProfileComponent } from './user-profile/user-profile.component';
+import { ShopCartComponent } from './shop-cart/shop-cart.component';
 
 const routes: Routes = [
   //Child Routes (All the routers that we going to use or load inside the dashboard)
@@ -15,6 +17,8 @@ const routes: Routes = [
     {path: '', component: HomepageComponent},
     {path: 'login', component: LoginComponent},
     {path: 'register', component: RegisterComponent},
+    {path: 'user-profile', component: UserProfileComponent},
+    {path: 'cart', component: ShopCartComponent},
     {path: 'products-list', component: ProductsListComponent},
     {path: 'product/:id', component: ProductDetailsComponent},
     {path: 'games', component: GamesListComponent},

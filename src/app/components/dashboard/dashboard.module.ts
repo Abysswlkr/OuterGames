@@ -12,6 +12,8 @@ import { GamesListComponent } from './games-list/games-list.component';
 import { ProductDetailsComponent } from './product-details/product-details.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
+import { ShopCartComponent } from './shop-cart/shop-cart.component';
+import { UserProfileComponent } from './user-profile/user-profile.component';
 
 
 @NgModule({
@@ -24,7 +26,9 @@ import { RegisterComponent } from './register/register.component';
     GamesListComponent,
     ProductDetailsComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    ShopCartComponent,
+    UserProfileComponent
   ],
   imports: [
     CommonModule,

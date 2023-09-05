@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { ToastrService } from 'ngx-toastr';
 import { AuthResponse } from 'src/app/interfaces/AuthResponse';
 import { AuthService } from 'src/app/services/auth.service';
 
@@ -13,7 +14,9 @@ export class LoginComponent implements OnInit{
   hide = true;
   loginForm: FormGroup;
 
-  constructor(private formBuilder: FormBuilder, private _authService: AuthService) {
+  constructor(private formBuilder: FormBuilder, 
+              private _authService: AuthService,
+              private toastr: ToastrService) {
     this.loginForm = this.formBuilder.group({
       email: ["", [Validators.required, Validators.email]],
       password: ["", Validators.required]
@@ -32,8 +35,6 @@ export class LoginComponent implements OnInit{
         this._authService.loginUser(email, password).subscribe(
           (response: AuthResponse) => {
                 this._authService.setAuthToken(response.token);
-
-                // Handle successful login response, e.g., redirect
                 console.log("Login successful:", response);
             },
             error => {

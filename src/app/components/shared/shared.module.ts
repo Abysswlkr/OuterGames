@@ -22,11 +22,13 @@ import {MatDatepickerModule} from '@angular/material/datepicker';
 import {MatNativeDateModule} from '@angular/material/core';
 import {MatCheckboxModule} from '@angular/material/checkbox';
 import {MatMenuModule} from '@angular/material/menu'; 
+import { Toast } from 'ngx-toastr';
 
 @NgModule({
   declarations: [],
   imports: [
     CommonModule,
+    Toast
   ],
   //export for use by other modules/components
   exports: [
@@ -49,7 +51,8 @@ import {MatMenuModule} from '@angular/material/menu';
     MatDatepickerModule,
     MatNativeDateModule,
     MatCheckboxModule,
-    MatMenuModule
+    MatMenuModule,
+    Toast
   ],
 })
 export class SharedModule { }

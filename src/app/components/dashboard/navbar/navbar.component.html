@@ -3,10 +3,12 @@
     <span class="spacer"></span>
     <button mat-flat-button  routerLink="/dashboard" color="primary">Home</button>
     <button mat-flat-button routerLink="/dashboard/games" color="primary">Products</button>
+    <button mat-flat-button routerLink="/dashboard/cart" color="primary"><mat-icon fontIcon="shopping_cart"></mat-icon>Shop Cart</button>
     <button mat-button [matMenuTriggerFor]="menu"><mat-icon fontIcon="account_box"></mat-icon>User Options</button>
     <mat-menu #menu="matMenu">
     <button mat-menu-item routerLink="/dashboard/login" *ngIf="!userAuthenticated"><mat-icon fontIcon="login"></mat-icon>Log In</button>
     <button mat-menu-item routerLink="/dashboard/register" *ngIf="!userAuthenticated"><mat-icon fontIcon="app_registration"></mat-icon>Register</button>
+    <button mat-menu-item routerLink="/dashboard/user-profile" *ngIf="userAuthenticated"><mat-icon fontIcon="account_circle"></mat-icon>Profile</button>
     <button mat-menu-item *ngIf="userAuthenticated" (click)="logout()"><mat-icon fontIcon="logout"></mat-icon>Logout</button>
     </mat-menu>
     <button mat-flat-button routerLink="/dashboard/products-list"  color="primary" *ngIf="userAuthenticated">CRUD Game List</button>
